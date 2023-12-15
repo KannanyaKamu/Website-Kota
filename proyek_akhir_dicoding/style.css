@@ -1,0 +1,134 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+header, footer {
+  background-color: #0766AD;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.header-logo img {
+  width: 60px;
+  padding-right: 15px;
+}
+.wrapper-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  background-color: #F3EEEA;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  max-width: 1200p;
+  margin: 0 auto;
+}
+.logo a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.menu {
+  list-style-type: none;
+  display: flex;
+}
+.menu li {
+  margin: 0 1rem;
+}
+.menu li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.menu li a:hover {
+  color: #0766AD;
+}
+.wrapper-menu {
+  /* padding-left: 30%; */
+  display: flex;
+  justify-content: center;
+}
+/* main {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+} */
+
+article, aside {
+  flex: 1;
+  padding: 10px;
+}
+
+aside img {
+  width: 100%;
+  height: auto;
+}
+
+.hero {
+  background-color: #f8f8f8;
+  overflow: hidden;
+}
+.heading h1{
+  color: #ff6347;
+  font-size: 55px;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 65px auto;
+}
+.hero-content{
+  flex: 1;
+  width: 600px;
+  margin:0px 25px;
+}
+
+.hero-content h2{
+  font-size: 38px;
+  margin-bottom:2opx;
+  color: #0766AD;
+}
+.hero-content button{
+  display: inline-block;
+  background-color: black;
+  color: #0766AD;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.hero-paragraph{
+  font-size: 30px;
+}
+.cta-button:hover{
+background-color: white;
+padding: 20px;
+display: inline-block;
+}
+
+.hero-image{
+  flex: 1;
+  width: 600px;
+  margin: auto;
+}
+img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
